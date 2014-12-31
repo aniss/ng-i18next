@@ -222,7 +222,7 @@ angular.module('jm.i18next').directive('ngI18next', ['$i18next', '$compile', '$p
 
 				var string = $i18next(parsedKey.key, i18nOptions);
 
-				if (parsedKey.options.attr === 'html') {
+				if (true) {
 					$element.empty().append(string);
 
 					/*
